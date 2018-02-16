@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Weather Forecast
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.eot">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff2">
+  </head>
+  <body>
+    <div class="jumbotron-fluid vertical-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <h1 id="location">Location</h1>
+            <div class="icon-div text-center">
+              <i id="weather-icon" class="wi"></i>
+            </div>
+            <p class="text-center" id="description">Weather description</p>
+            <div class='text-center'>
+              <h1 id="temp">Temperature</h1>
+              <p id="temp-f">Temperature</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 vertical-center">
+            <div class="extra-info">
+              <table>
+                <tr class="row-border">
+                  <td class="icon-cell"><i class="wi wi-sunrise"></i></td>
+                  <td class="parameter">Sunrise</td>
+                  <td id="sunrise" class="parameter"></td>
+                </tr>
+                <tr class="row-border">
+                  <td class="icon-cell"><i class="wi wi-sunset"></i></td>
+                  <td class="parameter">Sunset</td>
+                  <td id="sunset" class="parameter"></td>
+                </tr>
+                <tr class="row-border">
+                  <td class="icon-cell"><i class="wi wi-humidity"></i></td>
+                  <td class="parameter">Humidity</td>
+                  <td id="humidity" class="parameter"></td>
+                </tr>
+                <tr class="row-border">
+                  <td class="icon-cell"><i class="wi wi-strong-wind"></i></td>
+                  <td class="parameter">Wind Speed</td>
+                  <td id="wind-speed" class="parameter"></td>
+                </tr>
+                <tr class="row-border">
+                  <td class="icon-cell"><i class="wi wi-dust"></i></td>
+                  <td class="parameter">Visibility</td>
+                  <td id="visibility" class="parameter"></td>
+                </tr>
+                <tr class="row-border">
+                  <td class="icon-cell"><i class="wi wi-barometer"></i></td>
+                  <td class="parameter">Pressure</td>
+                  <td id="pressure" class="parameter"></td>
+                </tr>
+              </table>
+              <p class="text-center" id="updated">Last updated:</p>
+            </div>
+          </div>
+        </div>
+        <footer class="text-center">Created by <a href="https://codepen.io/alex-hart/full/JMajKy" target="_blank" class="name-space">Alex Hart</a> </footer>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+.jumbotron-fluid {
+  min-height: 100vh;
+  background-color: #6fb6ed;
+  color: white;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+#location {
+  margin-bottom: 50px;
+}
+
+#weather-icon {
+  font-size: 100px;
+}
+
+#description {
+  font-size: 32px;
+}
+
+.icon-div {
+  margin: 35px;
+}
+
+#temp-f {
+  display: inline;
+  color: #e0e1e2;
+}
+
+#temp {
+  display: inline;
+  font-size: 60px;
+}
+
+.icon-cell {
+  width: 6%;
+  text-align: center;
+}
+
+.parameter {
+  width: 47%;
+}
+
+table {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.row-border {
+  border-top: 1px solid white;
+}
+
+.extra-info {
+  width: 100%;
+}
+
+#updated {
+  margin-top: 24px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+a.name-space {
+  color: inherit;
+}
+
+a.name-space:hover{
+  color: inherit;
+}
